@@ -1,0 +1,8 @@
+2025-08-17 00:59:15,792 - INFO - TRAIN: 7390 samples, 489 features
+2025-08-17 00:59:15,792 - INFO - Found 10 eval files in C:\UoM Sem-2\Research_work\src\epochs\eval\normal
+2025-08-17 01:17:27,888 - INFO - Found 10 eval files in C:\UoM Sem-2\Research_work\src\epochs\eval\stroke
+2025-08-17 01:18:49,360 - INFO - EVAL FEATURES: 2287 samples, 481 features
+2025-08-17 01:18:49,369 - INFO - Generated 481 feature names
+2025-08-17 01:18:49,369 - WARNING - Feature-name mismatch: have 481 names for 489 columns; padding 8 placeholder names.
+2025-08-17 01:18:49,369 - INFO - Parameter Set 1: {'max_depth': 3, 'eta': 0.1, 'subsample': 1.0, 'colsample_bytree': 1.0, 'gamma': 0.0, 'objective': 'binary:logistic', 'eval_metric': 'logloss', 'tree_method': 'hist', 'nthread': 0}
+2025-08-17 01:18:49,370 - INFO - Set 1: Performing feature selection...

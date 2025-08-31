@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+shap
+pywt
+mne
+psutil
+tqdm
+joblib
+tensorflow

@@ -1,0 +1,5 @@
+2025-08-17 22:59:11,012 - INFO - TRAIN: 7390 samples, 489 features
+2025-08-17 22:59:11,013 - INFO - Found 10 eval files in C:\UoM Sem-2\Research_work\src\epochs\eval\normal
+2025-08-17 23:35:35,646 - INFO - [EVAL] normal_eval_aaaaahzi_s001_t000_epochs.npy tot=2184.6s | psd=0.6s asym=0.2s coh=0.2s time=2.9s wav=108.2s ratio=0.1s | feats=489
+2025-08-17 23:57:35,957 - INFO - [EVAL] normal_eval_aaaaaici_s001_t000_epochs.npy tot=1320.3s | psd=0.4s asym=0.1s coh=0.1s time=2.2s wav=56.5s ratio=0.0s | feats=489
+2025-08-18 00:56:10,184 - INFO - [EVAL] normal_eval_aaaaairo_s001_t000_epochs.npy tot=3514.2s | psd=1.2s asym=0.4s coh=0.4s time=5.9s wav=151.4s ratio=0.1s | feats=489

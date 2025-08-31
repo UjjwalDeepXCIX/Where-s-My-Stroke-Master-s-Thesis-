@@ -1,0 +1,50 @@
+2025-08-17 11:19:37,277 - INFO - TRAIN: 7390 samples, 489 features
+2025-08-17 11:19:37,278 - INFO - Found 10 eval files in C:\UoM Sem-2\Research_work\src\epochs\eval\normal
+2025-08-17 11:46:38,528 - INFO - [EVAL] normal_eval_aaaaahzi_s001_t000_epochs.npy tot=1621.2s | psd=0.5s asym=0.2s coh=0.2s time=2.8s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 13:15:41,683 - INFO - [EVAL] normal_eval_aaaaaici_s001_t000_epochs.npy tot=5343.2s | psd=0.5s asym=0.1s coh=0.1s time=2.2s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 17:04:47,608 - INFO - [EVAL] normal_eval_aaaaairo_s001_t000_epochs.npy tot=13745.9s | psd=1.1s asym=0.3s coh=0.4s time=5.8s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 18:14:09,516 - INFO - [EVAL] normal_eval_aaaaajdz_s001_t000_epochs.npy tot=4161.9s | psd=1.4s asym=0.4s coh=0.5s time=7.5s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 18:48:04,331 - INFO - [EVAL] normal_eval_aaaaajen_s001_t000_epochs.npy tot=2034.8s | psd=0.7s asym=0.2s coh=0.2s time=3.4s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 19:19:58,461 - INFO - [EVAL] normal_eval_aaaaajfi_s001_t001_epochs.npy tot=1914.1s | psd=0.9s asym=0.3s coh=0.3s time=3.5s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 19:47:47,456 - INFO - [EVAL] normal_eval_aaaaalox_s001_t001_epochs.npy tot=1669.0s | psd=0.6s asym=0.2s coh=0.2s time=3.1s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 21:05:00,347 - INFO - [EVAL] normal_eval_aaaaanyb_s001_t001_epochs.npy tot=4632.9s | psd=1.4s asym=0.4s coh=0.4s time=7.1s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 21:33:22,803 - INFO - [EVAL] normal_eval_aaaaaome_s001_t000_epochs.npy tot=1702.5s | psd=0.7s asym=0.2s coh=0.2s time=3.3s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 21:58:55,739 - INFO - [EVAL] normal_eval_aaaaaote_s001_t000_epochs.npy tot=1532.9s | psd=0.5s asym=0.2s coh=0.2s time=2.7s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 21:58:55,744 - INFO - Found 10 eval files in C:\UoM Sem-2\Research_work\src\epochs\eval\stroke
+2025-08-17 21:59:49,391 - INFO - [EVAL] stroke_eval_sub-41_task-motor-imagery_eeg_epochs.npy tot=53.6s | psd=0.0s asym=0.0s coh=0.0s time=0.1s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 22:02:15,383 - INFO - [EVAL] stroke_eval_sub-42_task-motor-imagery_eeg_epochs.npy tot=146.0s | psd=0.1s asym=0.0s coh=0.0s time=0.3s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 22:05:13,008 - INFO - [EVAL] stroke_eval_sub-43_task-motor-imagery_eeg_epochs.npy tot=177.6s | psd=0.1s asym=0.0s coh=0.0s time=0.3s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 22:07:22,380 - INFO - [EVAL] stroke_eval_sub-44_task-motor-imagery_eeg_epochs.npy tot=129.4s | psd=0.0s asym=0.0s coh=0.0s time=0.2s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 22:10:02,770 - INFO - [EVAL] stroke_eval_sub-45_task-motor-imagery_eeg_epochs.npy tot=160.4s | psd=0.1s asym=0.0s coh=0.0s time=0.3s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 22:16:50,306 - INFO - [EVAL] stroke_eval_sub-46_task-motor-imagery_eeg_epochs.npy tot=407.5s | psd=0.1s asym=0.0s coh=0.0s time=0.8s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 22:18:06,285 - INFO - [EVAL] stroke_eval_sub-47_task-motor-imagery_eeg_epochs.npy tot=76.0s | psd=0.0s asym=0.0s coh=0.0s time=0.1s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 22:22:29,795 - INFO - [EVAL] stroke_eval_sub-48_task-motor-imagery_eeg_epochs.npy tot=263.5s | psd=0.1s asym=0.0s coh=0.0s time=0.5s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 22:23:45,973 - INFO - [EVAL] stroke_eval_sub-49_task-motor-imagery_eeg_epochs.npy tot=76.2s | psd=0.0s asym=0.0s coh=0.0s time=0.2s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 22:29:30,194 - INFO - [EVAL] stroke_eval_sub-50_task-motor-imagery_eeg_epochs.npy tot=344.2s | psd=0.1s asym=0.0s coh=0.0s time=0.5s wav=0.0s ratio=0.0s | feats=489
+2025-08-17 22:29:30,214 - INFO - EVAL FEATURES: 2287 samples, 489 features
+2025-08-17 22:29:30,226 - INFO - Label balance — train pos=1006/7390, eval pos=162/2287
+2025-08-17 22:29:30,227 - INFO - Generated 489 feature names
+2025-08-17 22:29:30,228 - INFO - Parameter Set 1: {'max_depth': 3, 'eta': 0.1, 'subsample': 1.0, 'colsample_bytree': 1.0, 'gamma': 0.0, 'objective': 'binary:logistic', 'eval_metric': 'logloss', 'tree_method': 'hist', 'nthread': 0}
+2025-08-17 22:29:30,229 - INFO - Set 1: SelectKBest(mutual_info) → top 200 ...
+2025-08-17 22:29:45,252 - INFO - Set 1: RFE(XGBClassifier) → top 50 (this step can be slow)...
+2025-08-17 22:29:46,490 - INFO - Set 1: Selected 50 features: ['PSD_C4_delta', 'PSD_P3_delta', 'PSD_O2_alpha', 'PSD_PZ_delta', 'ASYM_C3_C4_gamma', 'TIME_F4_mean', 'TIME_C4_mean', 'WAV_P3_mean', 'WAV_P4_std', 'WAV_T4_std', 'WAV_PZ_mean', 'RATIO_FP1_theta_over_beta', 'RATIO_FP1_theta_over_gamma', 'RATIO_FP2_delta_over_theta', 'RATIO_FP2_delta_over_beta', 'RATIO_FP2_delta_over_gamma', 'RATIO_FP2_theta_over_alpha', 'RATIO_FP2_theta_over_gamma', 'RATIO_F4_delta_over_gamma', 'RATIO_C3_delta_over_gamma', 'RATIO_C4_delta_over_alpha', 'RATIO_C4_delta_over_beta', 'RATIO_P3_delta_over_theta', 'RATIO_P3_delta_over_alpha', 'RATIO_P4_alpha_over_gamma', 'RATIO_P4_beta_over_gamma', 'RATIO_O1_theta_over_gamma', 'RATIO_O1_beta_over_gamma', 'RATIO_O2_theta_over_gamma', 'RATIO_O2_alpha_over_beta', 'RATIO_O2_alpha_over_gamma', 'RATIO_O2_beta_over_gamma', 'RATIO_F8_delta_over_theta', 'RATIO_F8_delta_over_beta', 'RATIO_T3_beta_over_gamma', 'RATIO_T4_theta_over_beta', 'RATIO_T4_theta_over_gamma', 'RATIO_T4_beta_over_gamma', 'RATIO_T5_delta_over_beta', 'RATIO_T5_delta_over_gamma', 'RATIO_T5_beta_over_gamma', 'RATIO_T6_delta_over_alpha', 'RATIO_T6_delta_over_beta', 'RATIO_FZ_delta_over_gamma', 'RATIO_CZ_delta_over_theta', 'RATIO_CZ_delta_over_beta', 'RATIO_CZ_beta_over_gamma', 'RATIO_PZ_delta_over_alpha', 'RATIO_PZ_alpha_over_gamma', 'cwt_min']
+2025-08-17 22:29:46,491 - WARNING - [THESIS] grouped CV skipped: name 'thesis_grouped_cv_train' is not defined
+2025-08-17 22:29:46,498 - INFO - Set 1: Training XGBoost for 200 rounds...
+2025-08-17 22:29:46,791 - INFO - Set 1: ACC=0.929 PREC=0.000 REC=0.000 F1=0.000 AUC=0.947
+2025-08-17 22:29:48,509 - INFO - Parameter Set 2: {'max_depth': 4, 'eta': 0.05, 'subsample': 0.8, 'colsample_bytree': 0.8, 'gamma': 0.0, 'objective': 'binary:logistic', 'eval_metric': 'logloss', 'tree_method': 'hist', 'nthread': 0}
+2025-08-17 22:29:48,509 - INFO - Set 2: SelectKBest(mutual_info) → top 200 ...
+2025-08-17 22:30:03,487 - INFO - Set 2: RFE(XGBClassifier) → top 50 (this step can be slow)...
+2025-08-17 22:30:04,796 - INFO - Set 2: Selected 50 features: ['PSD_C4_delta', 'PSD_P3_delta', 'PSD_P4_alpha', 'PSD_O2_alpha', 'PSD_T3_beta', 'PSD_FZ_delta', 'PSD_CZ_delta', 'PSD_PZ_delta', 'ASYM_C3_C4_gamma', 'TIME_C4_var', 'TIME_P3_var', 'TIME_FZ_var', 'WAV_C4_std', 'WAV_P4_std', 'WAV_P4_min', 'WAV_T4_std', 'WAV_PZ_mean', 'RATIO_FP1_delta_over_beta', 'RATIO_FP1_theta_over_beta', 'RATIO_FP2_delta_over_theta', 'RATIO_FP2_delta_over_beta', 'RATIO_FP2_theta_over_alpha', 'RATIO_C3_delta_over_theta', 'RATIO_C4_delta_over_theta', 'RATIO_C4_delta_over_alpha', 'RATIO_P3_delta_over_theta', 'RATIO_P3_delta_over_alpha', 'RATIO_P3_delta_over_gamma', 'RATIO_P4_theta_over_gamma', 'RATIO_P4_alpha_over_beta', 'RATIO_P4_alpha_over_gamma', 'RATIO_P4_beta_over_gamma', 'RATIO_O1_theta_over_gamma', 'RATIO_O1_alpha_over_beta', 'RATIO_O1_alpha_over_gamma', 'RATIO_O2_theta_over_gamma', 'RATIO_O2_alpha_over_beta', 'RATIO_O2_beta_over_gamma', 'RATIO_F8_delta_over_beta', 'RATIO_T3_theta_over_alpha', 'RATIO_T3_alpha_over_gamma', 'RATIO_T3_beta_over_gamma', 'RATIO_T4_theta_over_beta', 'RATIO_T4_beta_over_gamma', 'RATIO_T5_beta_over_gamma', 'RATIO_FZ_delta_over_beta', 'RATIO_CZ_delta_over_alpha', 'RATIO_CZ_delta_over_beta', 'RATIO_CZ_beta_over_gamma', 'cwt_min']
+2025-08-17 22:30:04,796 - WARNING - [THESIS] grouped CV skipped: name 'thesis_grouped_cv_train' is not defined
+2025-08-17 22:30:04,803 - INFO - Set 2: Training XGBoost for 400 rounds...
+2025-08-17 22:30:05,331 - INFO - Set 2: ACC=0.929 PREC=0.000 REC=0.000 F1=0.000 AUC=0.963
+2025-08-17 22:30:06,041 - INFO - Parameter Set 3: {'max_depth': 5, 'eta': 0.03, 'subsample': 0.9, 'colsample_bytree': 0.9, 'gamma': 0.0, 'objective': 'binary:logistic', 'eval_metric': 'logloss', 'tree_method': 'hist', 'nthread': 0}
+2025-08-17 22:30:06,041 - INFO - Set 3: SelectKBest(mutual_info) → top 200 ...
+2025-08-17 22:30:20,669 - INFO - Set 3: RFE(XGBClassifier) → top 50 (this step can be slow)...
+2025-08-17 22:30:22,499 - INFO - Set 3: Selected 50 features: ['PSD_C3_delta', 'PSD_C4_delta', 'PSD_P3_delta', 'PSD_P4_alpha', 'PSD_O2_alpha', 'PSD_T3_beta', 'PSD_FZ_delta', 'PSD_CZ_beta', 'PSD_PZ_delta', 'ASYM_C3_C4_delta', 'ASYM_C3_C4_gamma', 'ASYM_F3_F4_gamma', 'TIME_F4_mean', 'TIME_C4_var', 'TIME_P3_var', 'TIME_F7_var', 'TIME_F8_var', 'WAV_P4_std', 'WAV_P4_max', 'RATIO_FP1_delta_over_gamma', 'RATIO_FP1_theta_over_beta', 'RATIO_FP1_theta_over_gamma', 'RATIO_F3_delta_over_theta', 'RATIO_F3_delta_over_beta', 'RATIO_C4_delta_over_theta', 'RATIO_C4_delta_over_alpha', 'RATIO_C4_delta_over_beta', 'RATIO_P3_delta_over_theta', 'RATIO_P3_delta_over_alpha', 'RATIO_P3_delta_over_gamma', 'RATIO_P4_beta_over_gamma', 'RATIO_O1_theta_over_gamma', 'RATIO_O1_beta_over_gamma', 'RATIO_O2_theta_over_gamma', 'RATIO_O2_alpha_over_gamma', 'RATIO_O2_beta_over_gamma', 'RATIO_T3_beta_over_gamma', 'RATIO_T4_theta_over_alpha', 'RATIO_T4_theta_over_beta', 'RATIO_T4_beta_over_gamma', 'RATIO_T5_delta_over_gamma', 'RATIO_T6_delta_over_theta', 'RATIO_T6_delta_over_beta', 'RATIO_CZ_delta_over_theta', 'RATIO_CZ_delta_over_alpha', 'RATIO_CZ_delta_over_beta', 'RATIO_CZ_delta_over_gamma', 'RATIO_CZ_beta_over_gamma', 'pdbsi_1_40', 'cwt_min']
+2025-08-17 22:30:22,501 - WARNING - [THESIS] grouped CV skipped: name 'thesis_grouped_cv_train' is not defined
+2025-08-17 22:30:22,507 - INFO - Set 3: Training XGBoost for 600 rounds...
+2025-08-17 22:30:23,523 - INFO - Set 3: ACC=0.289 PREC=0.083 REC=0.895 F1=0.151 AUC=0.883
+2025-08-17 22:30:24,282 - INFO - Best Set: 2 with AUC=0.963
+2025-08-17 22:30:24,283 - INFO - Computing SHAP summary (can be slow)...
+2025-08-17 22:30:26,826 - INFO - Running t-SNE embedding (slow; seconds–minutes)...
