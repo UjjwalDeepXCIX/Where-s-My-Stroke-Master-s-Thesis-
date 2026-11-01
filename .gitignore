@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+pipeline_v2/out/epochs/
+pipeline_v2/out/features_recording.csv
+Datasets/
+*.edf

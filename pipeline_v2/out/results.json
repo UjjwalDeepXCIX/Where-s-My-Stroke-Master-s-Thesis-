@@ -1,0 +1,140 @@
+{
+  "E1_confound": {
+    "physiology_features|logreg": [
+      0.9571200000000001,
+      0.0053270629806676925,
+      0.914
+    ],
+    "physiology_features|xgb": [
+      0.9396000000000001,
+      0.0027597101297056593,
+      0.892
+    ],
+    "nuisance_only|logreg": [
+      0.8961599999999998,
+      0.008558878431196466,
+      0.85
+    ],
+    "nuisance_only|xgb": [
+      0.9991999999999999,
+      0.0007155417527999284,
+      0.9860000000000001
+    ],
+    "line_noise_only|logreg": [
+      0.9996,
+      0.0006196773353932044,
+      0.8280000000000001
+    ],
+    "line_noise_only|xgb": [
+      0.99976,
+      0.00019595917942268705,
+      0.9860000000000001
+    ],
+    "orig_sampling_rate_only|logreg": [
+      0.9400000000000001,
+      7.021666937153402e-17,
+      0.97
+    ],
+    "orig_sampling_rate_only|xgb": [
+      0.9479600000000001,
+      0.001932459572669003,
+      0.97
+    ],
+    "heldout|physiology_features|xgb": 0.9800000000000001,
+    "heldout|nuisance_only|xgb": 1.0
+  },
+  "E2_lateralisation": {
+    "n_left_lesion": 22,
+    "n_right_lesion": 28,
+    "logreg": {
+      "auc_mean": 0.4693587662337662,
+      "auc_sd": 0.038454563649681875,
+      "perm_p": 0.5970149253731343,
+      "null_mean": 0.49969155844155844
+    },
+    "xgb": {
+      "auc_mean": 0.45028409090909094,
+      "auc_sd": 0.04231214855863105,
+      "perm_p": 0.6831683168316832,
+      "null_mean": 0.5003084415584415
+    },
+    "hemi_delta_L_over_R": {
+      "auc_no_training": 0.5202922077922079,
+      "mannwhitney_p": 0.8145700041981175,
+      "median_left_lesion": -0.03721787186064025,
+      "median_right_lesion": -0.0423400676657694
+    },
+    "hemi_logDAR_L_minus_R": {
+      "auc_no_training": 0.4456168831168831,
+      "mannwhitney_p": 0.5189465964375,
+      "median_left_lesion": -0.02451251250230975,
+      "median_right_lesion": -0.015229211484343001
+    }
+  },
+  "E3_severity": {
+    "g_log_DAR~meta_NIHSS": {
+      "rho": 0.238,
+      "p": 0.0954
+    },
+    "g_log_DAR~meta_mRS": {
+      "rho": 0.268,
+      "p": 0.0603
+    },
+    "g_log_DTABR~meta_NIHSS": {
+      "rho": 0.27,
+      "p": 0.0579
+    },
+    "g_log_DTABR~meta_mRS": {
+      "rho": 0.24,
+      "p": 0.0936
+    },
+    "pdBSI_1_25~meta_NIHSS": {
+      "rho": 0.043,
+      "p": 0.7661
+    },
+    "pdBSI_1_25~meta_mRS": {
+      "rho": 0.26,
+      "p": 0.0687
+    },
+    "pdBSI_delta~meta_NIHSS": {
+      "rho": -0.009,
+      "p": 0.9516
+    },
+    "pdBSI_delta~meta_mRS": {
+      "rho": 0.202,
+      "p": 0.159
+    },
+    "g_rel_delta~meta_NIHSS": {
+      "rho": 0.26,
+      "p": 0.0681
+    },
+    "g_rel_delta~meta_mRS": {
+      "rho": 0.281,
+      "p": 0.0484
+    },
+    "g_rel_alpha~meta_NIHSS": {
+      "rho": -0.187,
+      "p": 0.1923
+    },
+    "g_rel_alpha~meta_mRS": {
+      "rho": -0.205,
+      "p": 0.1526
+    },
+    "g_peak_alpha_freq~meta_NIHSS": {
+      "rho": -0.113,
+      "p": 0.4333
+    },
+    "g_peak_alpha_freq~meta_mRS": {
+      "rho": 0.168,
+      "p": 0.2435
+    },
+    "g_spec_entropy~meta_NIHSS": {
+      "rho": -0.253,
+      "p": 0.0763
+    },
+    "g_spec_entropy~meta_mRS": {
+      "rho": -0.328,
+      "p": 0.02
+    }
+  }
+}
