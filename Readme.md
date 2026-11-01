@@ -7,6 +7,23 @@ in the Faculty of Science and Engineering, Department of Computer Science.**
 
 ---
 
+> ## ⚠️ Update (Nov 2026): results revised, pipeline rebuilt
+> A post-submission audit found that the headline result below (**AUC 0.963**) **should not be read as stroke detection**.
+> All stroke recordings come from one dataset (Figshare, China, 500 Hz, 50 Hz mains) and all normal recordings from another (TUH, US, 250/512 Hz, 60 Hz mains).
+> A single non-brain feature, the 50 Hz vs 60 Hz mains-noise ratio, separates the two classes with AUC **0.9998**, so the classifier mainly learns *which site* a recording came from.
+> The audit also found issues in the v1 code: train and eval features were built differently, threshold and parameters were tuned on the eval set, the GAN output was not realistic, and some preprocessing steps never reached the data.
+>
+> **The rebuilt pipeline is on the [`pipeline-v2`](../../tree/pipeline-v2) branch.** It uses one preprocessing path for every recording, 140 standard QEEG features, recording-level patient-grouped CV and no GAN, and it runs in about 3 min instead of about 8 h. Within the stroke cohort only (no confound):
+> - Lesion side: chance level (AUC ≈ 0.46). Most lesions are subcortical.
+> - Severity: EEG slowing trends with NIHSS/mRS (ρ 0.24–0.33), but nothing survives correction for multiple tests.
+>
+> **Next step:** stroke and control EEG from the *same* source (TUH sessions found through clinician reports vs TUH normals), with a sanity gate that nuisance-only features must score AUC ≈ 0.5.
+> Details: [`pipeline_v2/README.md`](../../blob/pipeline-v2/pipeline_v2/README.md) · [audit](../../blob/pipeline-v2/docs/research-work-audit.md) · [headband validation plan](../../blob/pipeline-v2/docs/headband-validation-plan.md).
+>
+> The v1 code on this branch is kept unchanged as the version submitted with the dissertation.
+
+---
+
 ## 📖 Overview
 This project investigates **EEG-based stroke classification**, combining signal preprocessing, 
 synthetic data generation, feature engineering, and interpretable machine learning.  
@@ -27,10 +44,10 @@ It was developed as part of the MSc dissertation in Advanced Computer Science: A
 Clone the repository and install requirements:
 
 ```bash
-git clone https://github.com/YourUsername/EEG-Stroke-Classification.git
-cd EEG-Stroke-Classification
+git clone https://github.com/UjjwalDeepXCIX/Where-s-My-Stroke-Master-s-Thesis-.git
+cd Where-s-My-Stroke-Master-s-Thesis-
 pip install -r requirements.txt
-````
+```
 
 ---
 
@@ -101,4 +118,4 @@ pip install -r requirements.txt
 
    please feel free to open an issue, submit a pull request, or reach out directly.
    Collaboration and feedback are warmly welcomed to strengthen this line of research.
-_________
+_________
